@@ -14,8 +14,8 @@
         android:layout_weight="1">
 
         <ImageButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
             android:id="@+id/decreaseTeam1"
             android:src="@drawable/ic_minus"
             android:contentDescription="Minus Button"
@@ -41,8 +41,8 @@
             android:text="0"/>
 
         <ImageButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="@dimen/button_size"
+            android:layout_height="@dimen/button_size"
             android:id="@+id/increaseTeam1"
             android:src="@drawable/ic_plus"
             android:onClick="increaseScore"
@@ -62,8 +62,8 @@
         android:layout_weight="1">
 
         <ImageButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="@dimen/button_size"
+            android:layout_height="@dimen/button_size"
             android:id="@+id/decreaseTeam2"
             android:src="@drawable/ic_minus"
             android:background="@drawable/button_background"
@@ -91,8 +91,8 @@
 
 
         <ImageButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="@dimen/button_size"
+            android:layout_height="@dimen/button_size"
             android:id="@+id/increaseTeam2"
             android:src="@drawable/ic_plus"
             android:onClick="increaseScore"
